@@ -10,4 +10,4 @@ RUN npm run build
 FROM nginx
 COPY --from=builder /app/build /usr/share/nginx/html
 
-#per run, dopo aver buildato il docker file docker run -p 8080:80 93691678ff37  
+#per run, dopo aver buildato il docker file docker run -p 8080:80 93691678ff37   
